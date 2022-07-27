@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #4d88ff;
+    background-color: #b3b3cc;
 }
 
 .header {
@@ -54,8 +54,8 @@ body {
 
 .hero-text {
     float: right;
-    position: relative;
-    top: 100px;
+    position: absolute;
+    bottom: 20px;
     right: 30px;
     padding: 5px;
     border-radius: 2px;
@@ -66,19 +66,49 @@ body {
 }
 
 #about-me {
-    display: inline-block;
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+}
 
+article {
+    position: relative;
+    float: right;
+    flex: 1 1 65%;
+    text-align: left;
+    text-overflow: wrap;
+    display: flex;
+    flex-direction: column;
+    border-left: 4px solid black;
+}
+
+article p, article div {
+    text-overflow: wrap;
+    margin-left: 15%;
+    margin-bottom: 2%;
 }
 
 
 #my-work {
-
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
 }
 
-#contact-me {
 
+#contact-me {
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
 }
 
 .section-title {
     display: inline-block;
+    float: left;
+    flex: 0 1 20%;
+    margin-left: 5%;
+    margin-right: 4px;
+    font-size: 48px;
+    text-align: right;
 }
+
