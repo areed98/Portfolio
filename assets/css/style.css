@@ -183,6 +183,10 @@ article p, article div {
     margin-left: 0px;
 }
 
+footer {
+    margin-bottom: 1%;
+}
+
 .section-title {
     display: inline-block;
     float: left;
