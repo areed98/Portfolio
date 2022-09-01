@@ -124,22 +124,22 @@ article p, article div {
 .first-project img {
     height: auto;
     max-width: 100%;
-    flex: 0 1 auto;
+    flex: 0 2 auto;
     border: 3px solid #1F2833;
 }
 
 .other-projects {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 2% 5% 2% 5%;
     align-content: space-between;
     column-gap: 2%;
 }
 .other-projects img {
     height: auto;
-    max-width: 100%;
     flex: 0 1 auto;
     border: 3px solid #1F2833;
+    max-width: 100%;
 }
 
 
@@ -147,7 +147,9 @@ article p, article div {
     text-decoration: none;
     color: #45A29E;
     position: relative;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
+    max-width: 49%;
+    margin: 0 0 2% 0;
 }
 
 #caption {
