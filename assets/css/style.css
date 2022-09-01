@@ -190,7 +190,6 @@ footer {
 }
 
 .section-title {
-    display: inline-block;
     float: left;
     flex: 0 1 20%;
     margin-left: 5%;
